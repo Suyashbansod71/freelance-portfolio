@@ -1,0 +1,299 @@
+.about-container{
+  border-radius: 41px;
+  background-color: #e7ff69;
+  align-self: stretch;
+  display: flex;
+  margin: 50px;
+  flex-direction: column;
+  padding: 30px 50px 0px;
+  cursor: url('../assets/pr-logo.jpg'), auto;
+ 
+}
+
+/* .about-container:hover{
+  cursor: url("../assets/"), auto;
+} */
+
+.about-description-container{
+    display: flex;
+  gap: 20px;
+  color: #000;
+  font-weight: 400;
+}
+
+.about-title{
+    align-self: start;
+    margin-top: 16px;
+    flex-grow: 1;
+    flex-basis: 40%;
+    font: 76px Jogan Soft, sans-serif;
+}
+
+.about-description{
+    flex-grow: 1;
+    flex-basis: 60%;
+    font: 16px/26px Inter, sans-serif;
+
+}
+
+.about-border{
+    border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: #000;
+  width: 1647px;
+  max-width: 100%;
+  height: 1px;
+  margin: 50px 0 0 15px;
+}
+
+.about-company{
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    margin: 35px 0 0 15px;
+}
+
+.company-title{
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 64px Jogan Soft, sans-serif;
+    width: 40%;
+}
+
+.company-posi{
+    text-align: center;
+    font-family: Inter, sans-serif;
+    line-height: 162.5%;
+    /* margin-top: 40px; */
+    flex-grow: 1;
+    flex-basis: auto;
+    color: #000;
+    width:20%;
+    text-align: left;
+    align-content: center;
+
+}
+
+.company-posi-des{
+  text-align: left;
+    font-family: Inter, sans-serif;
+    line-height: 162.5%;
+    align-content: center;
+  
+
+}
+
+.company-posi-des a{
+  text-decoration: none;
+  color:#000;
+}
+
+.company-posi-des a:hover{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.company-posi-desc{
+  text-align: left;
+    font-family: Inter, sans-serif;
+    line-height: 162.5%;
+    align-content: center;
+
+}
+
+.company-posi-desc a{
+  text-decoration: underline;
+  color:#000;
+}
+
+.company-posi-desc a:hover{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.company-work{
+    font-family: Inter, sans-serif;
+    line-height: 26px;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.about-border1{
+    border-color: rgba(0, 0, 0, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #000;
+    width: 1647px;
+    max-width: 100%;
+    height: 1px;
+    margin: 17px 0 0 15px;
+}
+
+.about-company-job{
+    display: flex;
+  align-items: start;
+  gap: 20px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  margin: 35px 0 0 15px;
+}
+
+
+.about-design{
+    flex-grow: 1;
+    flex-basis: auto;
+    color: #000;
+    font: 64px Jogan Soft, sans-serif;
+}
+
+.about-design1{
+    text-align: center;
+    font-family: Inter, sans-serif;
+    line-height: 162.5%;
+    margin-top: 40px;
+    flex-grow: 1;
+    flex-basis: auto;
+    color: #000;
+}
+
+.about-design-description{
+    font-family: Inter, sans-serif;
+    line-height: 26px;
+    align-self: stretch;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.about-border2{
+    border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: #000;
+  width: 1647px;
+  max-width: 100%;
+  height: 1px;
+  margin: 14px 0 0 15px;
+}
+
+.about-socials{
+  margin-top: 2em;
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.img1{
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 78px;
+    /* background-color: #e7ff69; */
+}
+
+.img5{
+    aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 78px;
+  margin-top: 4px;
+}
+
+.img6{
+    position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img7{
+    aspect-ratio: 0.98;
+    object-fit: auto;
+    object-position: center;
+    width: 78px;
+    fill: #e7ff69;
+}
+
+.img8{
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 228px;
+    max-width: 100%;
+}
+
+.lang-list{
+  margin-top: 2em;
+  display: flex;
+  align-items: start;
+  gap: 20px;
+  color: #000;
+}
+
+@media (max-width: 991px) {
+    .about-container{
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 0 20px;
+    padding-bottom: 1em;
+  }
+  .about-description-container{
+    max-width: 100%;
+    margin-right: 4px;
+    flex-wrap: wrap;
+  }
+  .about-title{
+    font-size: 40px;
+  }
+  .about-description{
+    max-width: 100%;
+  }
+  .about-border{
+    margin: 40px 4px 0 0;
+  }
+  .about-company{
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin: 40px 4px 0 0;
+  }
+  .company-title{
+    font-size: 40px;
+  }
+  .about-border1{
+    margin: 40px 4px 0 0;
+  }
+  .about-company-job{
+    max-width: 100%;
+    margin-right: 4px;
+    flex-wrap: wrap;
+   }
+   .about-design{
+    font-size: 40px;
+   }
+   .about-border2{
+    margin: 40px 4px 0 0;
+   }
+   .about-socials{
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   }
+   .about-socials{
+    flex-wrap: wrap;
+   }
+   
+   .about-socials img{
+    width: 60px;
+   }
+
+   .lang-list{
+    flex-wrap: wrap;
+  }
+
+
+}

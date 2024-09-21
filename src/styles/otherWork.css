@@ -1,0 +1,253 @@
+.other-work h1{
+  color: #fff;
+  align-self: start;
+  margin: 100px 0 0 50px;
+  font: 400 76px 'Jogan Soft', sans-serif;
+}
+.other-work-container{
+  display: flex;
+  margin-top: 1em;
+}
+.text-other{
+  display: flex;
+  column-gap: 2em;
+  align-items: end;
+
+}
+.text-other h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.other-work-img{
+ /* width: 100%; */
+
+  transition: transform 0.5s ease;
+}
+
+.other-work-img:hover{
+  transform: scale(0.95);
+}
+.other-work-container p{
+  align-content: end;
+  margin-left: 1em;
+  width: 40%;
+  font-family: "Inter", sans-serif;
+}
+.view-detail{
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.borde-line {
+  width: 80%;
+  margin-top: 3em;
+}
+
+
+.spline-bk{
+  background-color: black;
+}
+
+@media (max-width: 545px) {
+  .other-work-container {
+    margin-top: 50px;
+    margin-left: 0;
+    display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items horizontally */
+  text-align: center; /* Center align text within the container */
+  }
+
+  .other-work-img {
+    width: 80% !important;
+    height: 80% !important;
+  }
+
+  .text-other {
+    column-gap: 3em;
+    display: flex;
+    justify-content: center; /* Center align the text horizontally */
+  }
+
+  .other-work-container p {
+    width: 85%;
+    margin-left: 0; /* Remove margin for center alignment */
+    text-align: center; /* Center align text */
+  }
+
+}
+
+@media (min-width: 546px) and (max-width: 1100px) {
+  .other-work-container {
+    margin-top: 20px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    text-align: center; /* Center align text within the container */
+  }
+
+  .other-work-img {
+    width: 70% !important;
+    height: 70% !important;
+  }
+
+  .other-work h1 {
+    font: 400 40px 'Jogan Soft', sans-serif;
+  }
+
+  .text-other {
+    display: flex;
+  column-gap: 4.5em;
+  justify-content: center; /* Center align the text horizontally */
+  }
+
+  .other-work-container p {
+    width: 65%;
+    margin-left: 0; /* Remove margin for center alignment */
+    text-align: center; /* Center align text */
+  }
+
+}
+
+@media (min-width: 1101px) {
+  .other-work-img {
+    width: 545px;
+    height: 600px;
+    margin-left: 1em;
+  }
+}
+
+@media (min-width: 1101px) and (max-width: 1250px)
+{
+   
+  .text-other {
+     margin-left: 3em;
+     column-gap: 1em;
+  }
+}
+
+@media (min-width: 1251px) and (max-width: 1400px)
+{
+   
+  .text-other {
+     margin-left: 8em;
+  }
+}
+
+@media (min-width: 1401px) {
+  .text-other {
+    margin-left: 12em;
+ }
+}
+/* 
+.other-work-container{
+  display: flex;
+  margin-top: 17px;
+  width: 100%;
+  max-width: 1776px;
+  align-items: end;
+  gap: 20px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.other-tab1{
+  font-family: Inter, sans-serif;
+font-weight: 400;
+line-height: 162.5%;
+margin-top: 650px;
+}
+.other-tab2{
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 162.5%;
+  margin-top: 650px;
+  flex-grow: 1;
+  margin-left: 100px;
+  flex-basis: auto;
+}
+
+.other-work-section{
+  align-self: stretch;
+display: flex;
+align-items: end;
+margin-left: 100px;
+gap: 14px;
+}
+
+.other-tab3{
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 162.5%;
+  margin-top: 653px;
+  flex-grow: 1;
+}
+
+.other-work-img{
+  aspect-ratio: 1;
+  object-fit: auto;
+  object-position: center;
+  width: 100%;
+  align-self: stretch;
+
+  transition: transform 0.5s ease;
+}
+
+.other-work-img:hover{
+  transform: scale(0.95);
+}
+
+.other-work-description{
+  display: flex;
+  margin-top: 450px;
+  flex-direction: column;
+}
+
+.other-para{
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+}
+.other-explore{
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  line-height: 162.5%;
+  text-decoration-line: underline;
+  margin-top: 31px;
+}
+
+
+@media (max-width: 991px) {
+  .other-work-container{
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+.other-tab1{
+  margin-top: 40px;
+}
+.other-tab2{
+  margin-top: 40px;
+}
+.other-work-section{
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+.other-tab3{
+  margin-top: 40px;
+}
+.other-work-img{
+  max-width: 100%;
+}
+.other-work-description{
+  max-width: 100%;
+  margin-top: 40px;
+}
+.other-para{
+  max-width: 100%;
+}
+.other-explore{
+  max-width: 100%;
+}
+}   */

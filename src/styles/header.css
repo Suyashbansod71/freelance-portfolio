@@ -1,0 +1,92 @@
+  .container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px 64px;
+    width: 100%;
+    border-bottom: 1px solid white; 
+    box-sizing: border-box;
+    position: sticky; /* Make the header sticky */
+    top: 0; /* Stick to the top of the page */
+    z-index: 1000; /* Ensure it stays above other content */
+    background-color: black; /* Ensure the background color is set */
+  }
+  
+  .title {
+    font-size: 3rem;
+    color: #e7ff69; 
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 8px;
+    font-size: 1rem; 
+    margin-left: 7em;
+    color: white;
+  }
+  
+  .tab {
+    display: flex;
+    justify-content: center;
+    padding: 12px 36px;
+    border: 1px solid white;
+    border-radius: 33px;
+  }
+
+  .tab.active {
+    background-color: #e7ff69;
+    color: black;
+  }
+  
+  
+  .ux-design {
+    display: flex;
+    justify-content: center;
+    align-self: stretch;
+    padding: 8px 28px;
+    margin: auto 0;
+    font-size: 0.75rem; 
+    color: black;
+    background-color: #e7ff69; 
+    border-radius: 24px; 
+  }
+  
+
+  @media (375px <= width <= 545px){
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .tabs {
+      margin-left: 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .container {
+
+      flex-wrap: wrap;
+      padding: 20px;
+      width: 100%;
+    }
+  
+    .title {
+      font-size: 2.5rem; 
+    }
+  
+    .tabs {
+      flex-wrap: wrap;
+      margin-left: 0;
+    }
+  
+    .tab {
+      padding: 12px 20px;
+    }
+  
+    .ux-design {
+      padding: 8px 20px;
+    }
+  }
+  

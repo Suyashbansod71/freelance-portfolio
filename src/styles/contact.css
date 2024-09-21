@@ -1,0 +1,238 @@
+.contact-page h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-left: 3em;
+}
+
+.social-grp{
+    gap: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-colum{
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 15%;
+    margin-left: 0px;
+}
+
+.social-resume{
+    display: flex;
+  margin-top: 91px;
+  flex-direction: column;
+  font-size: 64px;
+  color: #fff;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.heart{
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 32px;
+    align-self: center;
+}
+
+.resume-text{
+    font-family: Jogan Soft, sans-serif;
+    margin-top: 45px;
+}
+
+.resume-border{
+    background-color: #e7ff69;
+  margin-top: 11px;
+  height: 31px;
+  width: 210px;
+}
+
+.linkedin-colum{
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 15%;
+    margin-left: 20px;
+}
+
+.social-linkedin{
+    display: flex;
+  margin-top: 6px;
+  flex-direction: column;
+  font-size: 64px;
+  color: #fff;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.linkedin-text{
+    font-family: Jogan Soft, sans-serif;
+}
+
+.linkedin-border{
+    background-color: #e7ff69;
+    margin-top: 13px;
+    height: 31px;
+    width: 230px;
+}
+
+.behance-colum{
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 15%;
+    margin-left: 20px;
+}
+
+.social-behance{
+    display: flex;
+    margin-top: 101px;
+    flex-grow: 1;
+    flex-direction: column;
+    font-size: 64px;
+    color: #fff;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.behance-text{
+    font-family: Jogan Soft, sans-serif;
+  margin-top: 44px;
+}
+
+.behance-border{
+    background-color: #e7ff69;
+    margin-top: 15px;
+    height: 31px;
+    width: 230px;
+}
+
+.email-colum{
+    display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 15%;
+  margin-left: 20px;
+}
+
+.social-email{
+    display: flex;
+    flex-direction: column;
+    font-size: 64px;
+    color: #fff;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.email-text{
+    font-family: Jogan Soft, sans-serif;
+    margin-top: 48px;
+}
+
+.email-border{
+    background-color: #e7ff69;
+    margin-top: 10px;
+    height: 31px;
+    width: 150px;
+}
+
+.contact{
+    color: #fff;
+    margin-top: 116px;
+    font: 400 560px  Inter, sans-serif;
+}
+
+.contact-page h1{
+    width: 100%;
+    font-size: 20vw; 
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+@media (max-width: 991px) {
+    .social-grp{
+    flex-direction: column;
+    align-items: center;
+        justify-content: center; /* Centers the items vertically */
+        margin: 0 auto;
+    /* gap: 0px; */
+    }
+    .social-colum{
+        width: 25%;
+    }
+    .social-resume{
+        margin-top: 40px;
+        font-size: 40px;
+        white-space: initial;
+    }
+    .resume-text{
+        margin-top: 40px;
+        font-size: 40px;
+    }
+
+    .social-linkedin{
+        margin-top: 40px;
+        font-size: 40px;
+        white-space: initial;
+    }
+    .linkedin-colum{
+        width: 25%;
+        margin-left: 0;
+    }
+    .linkedin-text{
+        font-size: 40px;
+    }
+    .social-behance{
+        margin-top: 40px;
+        font-size: 40px;
+        white-space: initial;
+    }
+    .behance-colum{
+        width: 25%;
+        margin-left: 0;
+    }
+    .behance-text{
+        margin-top: 40px;
+        font-size: 40px;
+    }
+    .email-colum{
+        width: 25%;
+        margin-left: 0;
+    }
+    .social-email{
+        margin-top: 40px;
+    font-size: 40px;
+    white-space: initial;
+    }
+    .email-text{
+        margin-top: 40px;
+        font-size: 40px;
+    }
+    .contact{
+        max-width: 100%;
+        margin-top: 40px;
+        font-size: 40px;
+    }
+    .email-border{
+        width: 100px;
+    }
+    .behance-border{
+        width: 150px;
+    }
+    .linkedin-border{
+        width: 150px;
+    }  
+   .resume-border{
+   width: 150px;
+   }
+  }
+
+  @media (min-width: 370px) and (max-width: 500px)
+  {
+    .social-grp{
+          margin-right: 1em;
+        }
+  }
