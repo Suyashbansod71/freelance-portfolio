@@ -54,6 +54,7 @@ const PdfOtherWork2 = () => {
      const navigate = useNavigate();
    
      const handleHomeClick = () => {
+      window.scrollTo(0, 0);
        navigate('/');
      };
    
