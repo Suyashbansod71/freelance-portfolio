@@ -11,7 +11,7 @@ body {
   background-color: black;
   color: white;
   font-family: 'Jogan Soft', Arial, sans-serif; /* Apply the custom font */
-  cursor: url(../src/assets/profile-pic.jpg), auto;
+  /* cursor: url(../src/assets/profile-pic.jpg), auto; */
 }
 
 

@@ -66,17 +66,23 @@ const PdfOtherWork = () => {
        navigate('/other2');
      };
 
+     const handleBackClick = () => {
+      navigate('/');
+    };
+
   return (
     <div className="pdf-container">
 
 
-    <div className="top-bar">
-   <button className="home-button" onClick={handleHomeClick}>Home</button>
-   <button className="next-project-button" onClick={handleNextClick}>Next Project</button>
- </div>
+<div className="top-bar">
+  <button className="home-button" onClick={handleHomeClick}>Home</button>
+  <div className="project-buttons">
+    <button className="next-project-button" onClick={handleBackClick}>Back Project</button>
+    <button className="next-project-button" onClick={handleNextClick}>Next Project</button>
+  </div>
+</div>
 
-
- <h1 className="pdf-title">VOEP APP</h1>
+ <h1 className="pdf-title">Sex Education Awareness</h1>
 
  <div className='pdf-ig'>
 

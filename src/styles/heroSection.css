@@ -96,9 +96,7 @@
   }
 
   .resume {
-    position: static; /* Remove absolute positioning */
-    transform: none; /* Reset transform */
-    margin-top: 10px; /* Add margin to separate from the name */
+    display: none; /* Hides the div */
   }
 
   .hero-container2 img {

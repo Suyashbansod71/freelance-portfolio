@@ -6,7 +6,8 @@
   margin: 50px;
   flex-direction: column;
   padding: 30px 50px 0px;
-  cursor: url('../assets/pr-logo.jpg'), auto;
+  cursor: url('../assets/pr-logo-final.jpg'), auto;
+  /* cursor: url(../assets/profile-pic.jpg), auto; */
  
 }
 
