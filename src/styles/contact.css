@@ -23,7 +23,7 @@
   margin-top: 91px;
   flex-direction: column;
   font-size: 64px;
-  color: #fff;
+  color: #000000;
   font-weight: 400;
   white-space: nowrap;
 }
@@ -33,6 +33,7 @@
     object-position: center;
     width: 32px;
     align-self: center;
+    color :#CCC0EB;
 }
 
 .resume-text{
@@ -40,8 +41,13 @@
     margin-top: 45px;
 }
 
+.resume-text a {
+    text-decoration: none;
+    color:#000;
+}
+
 .resume-border{
-    background-color: #e7ff69;
+  background-color: #CCC0EB;
   margin-top: 11px;
   height: 31px;
   width: 210px;
@@ -60,7 +66,7 @@
   margin-top: 6px;
   flex-direction: column;
   font-size: 64px;
-  color: #fff;
+  color: #000000;
   font-weight: 400;
   white-space: nowrap;
 }
@@ -69,8 +75,13 @@
     font-family: Jogan Soft, sans-serif;
 }
 
+.linkedin-text a {
+    text-decoration: none;
+    color:#000;
+}
+
 .linkedin-border{
-    background-color: #e7ff69;
+    background-color: #CCC0EB;
     margin-top: 13px;
     height: 31px;
     width: 230px;
@@ -90,7 +101,7 @@
     flex-grow: 1;
     flex-direction: column;
     font-size: 64px;
-    color: #fff;
+    color: #000000;
     font-weight: 400;
     white-space: nowrap;
 }
@@ -100,8 +111,13 @@
   margin-top: 44px;
 }
 
+.behance-text a {
+    text-decoration: none;
+    color:#000;
+}
+
 .behance-border{
-    background-color: #e7ff69;
+    background-color: #CCC0EB;
     margin-top: 15px;
     height: 31px;
     width: 230px;
@@ -119,7 +135,7 @@
     display: flex;
     flex-direction: column;
     font-size: 64px;
-    color: #fff;
+    color: #000000;
     font-weight: 400;
     white-space: nowrap;
 }
@@ -130,19 +146,24 @@
 }
 
 .email-border{
-    background-color: #e7ff69;
+    background-color: #CCC0EB;
     margin-top: 10px;
     height: 31px;
     width: 150px;
 }
 
 .contact{
-    color: #fff;
+    color: #CCC0EB;
     margin-top: 116px;
     font: 400 560px  Inter, sans-serif;
 }
 
+.contact-page h4{
+ color: #000000;
+}
+
 .contact-page h1{
+    color: #CCC0EB;
     width: 100%;
     font-size: 20vw; 
     text-align: center;

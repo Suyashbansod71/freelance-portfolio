@@ -1,16 +1,16 @@
 
 .hero-container {
   display: flex;
-  align-items: center; /* Center items vertically */
+  align-items: center; 
   margin-top: 27px;
   width: 100%;
   max-width: 1776px;
   gap: 20px;
   font-size: 45px;
-  color: #fff;
+  color: #000000;
   font-weight: 400;
   cursor: pointer;
-  position: relative; /* To enable absolute positioning of the .resume */
+  position: relative; 
 }
 
 .name-container {
@@ -36,9 +36,9 @@
 .resume {
   font-family: Jogan Soft, sans-serif;
   position: absolute;
-  right: 1em; /* Position the resume text to the right */
-  top: 50%; /* Vertically center it */
-  transform: translateY(-50%); /* Adjust to perfect center */
+  right: 1em;
+  top: 50%;
+  transform: translateY(-50%); 
 }
 
 
@@ -48,8 +48,10 @@
 }
 
 .description h2{
+  margin-top: -30px;
  font-family: "Inter", sans-serif;
  font-weight: 400;
+ color:black;
 }
 
 
@@ -57,7 +59,7 @@
   position: relative;
   width: 100%;
   height: 90vh; 
-  background-image: url('../assets/back_portfolio2.svg'); 
+  background-image: url('../assets/prawnsPortfolio.svg'); 
   /* background-image: url('../assets/Portfolio.svg');  */
   background-position: center;
   background-repeat: no-repeat;
@@ -71,7 +73,14 @@
   aspect-ratio: 2984 / 1120;
 }
 
+.pranali-pics{
+  transition: transform 0.5s ease;
+}
 
+.pranali-pics:hover{
+  /* transform: scale(-1.95); */
+  transform: translate(0px, 10px) scale(2)
+}
 .logo-img {
   width: 100%;
   max-width: 323px;
@@ -79,24 +88,24 @@
 }
 @media (max-width: 991px) {
   .hero-container {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center align items horizontally */
-    gap: 10px; /* Reduce gap for better layout */
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
     font-size: 40px;
   }
   
   .name-container {
-    padding: 0; /* Remove padding for a cleaner look */
-    justify-content: center; /* Center align the name container */
+    padding: 0; 
+    justify-content: center; 
   }
 
   .name {
-    margin: 0; /* Remove margin for a cleaner look */
+    margin: 0;
     align-content: center;
   }
 
   .resume {
-    display: none; /* Hides the div */
+    display: none; 
   }
 
   .hero-container2 img {
@@ -113,5 +122,9 @@
 
   .background-section{
     background-image:none;
+  }
+
+  .description h2{
+    margin-top: -60px;
   }
 }

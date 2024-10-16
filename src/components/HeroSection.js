@@ -10,7 +10,7 @@ const HeroSection = () => {
    
     <div className='hero-container'>
     <div className='name-container'>
-      <img
+      <img className='pranali-pics hover-zoom'
        loading="lazy"
        src={profilePic}
       // src = ""

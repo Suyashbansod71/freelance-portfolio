@@ -17,16 +17,35 @@ const HomePage = () => {
 
   // Scroll event handler
   const handleScroll = () => {
-    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const sections = [
+      { ref: myWorkRef, name: 'MY WORK' },
+      { ref: otherWorkRef, name: 'MY WORK' },
+      { ref: aboutMeRef, name: 'ABOUT ME' },
+      { ref: contactRef, name: 'REACH OUT' },
+    ];
 
-    if (myWorkRef.current && scrollTop >= myWorkRef.current.offsetTop && scrollTop < (otherWorkRef.current?.offsetTop || Infinity)) {
-      setActiveTab('MY WORK');
-    } else if (otherWorkRef.current && scrollTop >= otherWorkRef.current.offsetTop && scrollTop < (aboutMeRef.current?.offsetTop || Infinity)) {
-      setActiveTab('MY WORK');
-    } else if (aboutMeRef.current && scrollTop >= aboutMeRef.current.offsetTop && scrollTop < (contactRef.current?.offsetTop || Infinity)) {
-      setActiveTab('ABOUT ME');
-    } else if (contactRef.current && scrollTop >= contactRef.current.offsetTop) {
-      setActiveTab('REACH OUT');
+    sections.forEach((section) => {
+      if (section.ref.current) {
+        const { top } = section.ref.current.getBoundingClientRect();
+        const isVisible = top >= 0 && top < window.innerHeight;
+
+        if (isVisible) {
+          setActiveTab(section.name);
+        }
+      }
+    });
+  };
+
+  const scrollToSection = (refName) => {
+    const sectionRef = {
+      myWorkRef,
+      otherWorkRef,
+      aboutMeRef,
+      contactRef,
+    }[refName];
+
+    if (sectionRef.current) {
+      sectionRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -42,7 +61,7 @@ const HomePage = () => {
 
   return (
     <>
-      <Header activeTab={activeTab} setActiveTab={setActiveTab} />
+      <Header activeTab={activeTab} setActiveTab={setActiveTab} scrollToSection={scrollToSection} />
       <HeroSection />
       <div ref={myWorkRef}><MyWork /></div>
       <div ref={otherWorkRef}><OtherWork /></div>

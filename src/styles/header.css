@@ -1,21 +1,24 @@
-  .container {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 32px 64px;
-    width: 100%;
-    border-bottom: 1px solid white; 
-    box-sizing: border-box;
-    position: sticky; /* Make the header sticky */
-    top: 0; /* Stick to the top of the page */
-    z-index: 1000; /* Ensure it stays above other content */
-    background-color: black; /* Ensure the background color is set */
-  }
-  
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 32px 64px;
+  width: 100%;
+  border-radius: 12px; 
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+}
+
   .title {
     font-size: 3rem;
-    color: #e7ff69; 
+    color: #000000; 
   }
   
   .tabs {
@@ -23,19 +26,19 @@
     gap: 8px;
     font-size: 1rem; 
     margin-left: 7em;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   
   .tab {
     display: flex;
     justify-content: center;
     padding: 12px 36px;
-    border: 1px solid white;
+    border: 1px solid #CCC0EB;
     border-radius: 33px;
   }
 
   .tab.active {
-    background-color: #e7ff69;
+    background-color: #CCC0EB;
     color: black;
   }
   
@@ -48,7 +51,7 @@
     margin: auto 0;
     font-size: 0.75rem; 
     color: black;
-    background-color: #e7ff69; 
+    background-color: #CCC0EB; 
     border-radius: 24px; 
   }
   

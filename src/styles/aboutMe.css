@@ -1,12 +1,13 @@
 .about-container{
   border-radius: 41px;
-  background-color: #e7ff69;
+  background-color: #CCC0EB;
   align-self: stretch;
   display: flex;
   margin: 50px;
   flex-direction: column;
   padding: 30px 50px 0px;
-  cursor: url('../assets/pr-logo-final.jpg'), auto;
+  /* cursor: url('../assets/pr-logo-final.jpg'), auto; */
+  cursor: url('../assets//pranali-flower-logo\ \(4\).png'), auto;
   /* cursor: url(../assets/profile-pic.jpg), auto; */
  
 }

@@ -31,7 +31,7 @@ const MyWork = () => {
   return (
     <>
       <div className='work'>
-        <h1>Selected Work</h1>
+        <h1>UX UI Work</h1>
      </div>
 
       {/* 1. work  */}
@@ -44,13 +44,13 @@ const MyWork = () => {
         </div>
         <div className='work-tabs'>
           <div className='work-tab1'>Research focused</div>
-          <div className='work-tab2'>FIGMA</div>
-          <div className='work-tab3'>UI</div>
-          <div className='work-tab4'>UX</div>
+          <div className='work-tab2'>Figma</div>
+          <div className='work-tab3'>Prototype</div>
+          {/* <div className='work-tab4'>UX</div> */}
         </div>
       </div>
       <div className='work-img hover-zoom'>
-      <div className='work-text'>Work</div>
+      <div className='work-text'>Gamification</div>
       <img className='work1-img'
       onClick={() => gotToNewPage()}
       loading="lazy"
@@ -72,13 +72,13 @@ const MyWork = () => {
         </div>
         <div className='work-tabs'>
           <div className='work-tab1'>Spatial Design</div>
-          <div className='work-tab2'>FIGMA</div>
-          <div className='work-tab3'>UI</div>
-          <div className='work-tab4'>UX</div>
+          <div className='work-tab2'>Figma</div>
+          <div className='work-tab3'>Social Impact</div>
+          {/* <div className='work-tab4'>UX</div> */}
         </div>
       </div>
       <div className='work-img hover-zoom'>
-      <div className='work-text'>Work</div>
+      <div className='work-text'>Design Project</div>
       <img className='work1-img'
       onClick={() => gotToNewPage2()}
       loading="lazy"
@@ -101,7 +101,7 @@ const MyWork = () => {
         </div>
         <div className='work-tabs'>
           <div className='work-tab1'>Website Redesign</div>
-          <div className='work-tab2'>FIGMA</div>
+          <div className='work-tab2'>Figma</div>
           <div className='work-tab3'>UI</div>
           <div className='work-tab4'>UX</div>
         </div>

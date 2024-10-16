@@ -1,10 +1,10 @@
 import React from 'react'
-import figma from "../assets/figma logo.svg";
-import adobe from "../assets/adobe logo.svg";
-import mage from "../assets/ai logo.svg";
-import ps from "../assets/core logo.svg";
-import power from "../assets/ps logo.svg";
-import flash from "../assets/procreate logo.svg";
+import figma from "../assets/logos/figma-last.svg";
+import adobe from "../assets/logos/adobe-last.svg";
+import mage from "../assets/logos/ai-logo.svg";
+import ps from "../assets/logos/core-last.svg";
+import power from "../assets/logos/power-last.svg";
+import flash from "../assets/logos/flash-last.svg";
 import "../styles/aboutMe.css"
 
 // import { useNavigate } from "react-router-dom"
@@ -27,18 +27,20 @@ const AboutMe = () => {
     <div className='about-description-container'>
       <div className='about-title'>About me</div>
       <div className='about-description'>
-      Hi there I’m Pranali Khatekar. To be honest, My work has become my identity, 
-      and professionally, I specialize in UI/UX design. I'm naturally very curious 
-      person and love to decode problems to understand them better. I enjoy working 
-      on various projects where I can learn and provide solutions. Design is my 
-      passion, and as a hobby, I love sketching portraits to capture memories.
-      (View it on Behance) As far as experience goes, I have fair experience working 
-      as a solo designer as well as having worked with excellent teams. In my free 
-      time, I love playing games and showing that girls can be tough competitors not
-       only in video games but also during my school days, I competed in state-level
-        rifle shooting competitions. The benefit I gained from this was a stronger 
-        focus and has helped me stay more concentrated and committed in various aspects 
-        of my life.
+      Hello, I’m Pranali Khatekar ,Since childhood, I've been a creative soul,
+       always doodling and exploring ways to bring ideas to life. This passion
+        for creativity eventually led me to discover UI/UX design—a field where 
+        I can blend technical skills with artistic expression. That realization 
+        inspired me to pursue a Bachelor of Design with a specialization in UI/UX.
+      Design is not just a profession for me; it's a big part of who I am. I'm 
+      naturally curious and thrive on dissecting challenges to gain a deeper 
+      understanding. Each project I take on is an opportunity to learn something 
+      new, pushing me to grow as a designer. When I’m not designing, I enjoy sketching 
+      portraits as a way to capture and preserve memories—something I find both 
+      relaxing and rewarding. Some of my work is available on Behance. Working
+       both independently and as part of teams has provided opportunities that 
+       bring fresh insights and help me become a better designer. Design is a journey
+        for me, and I’m excited to keep evolving with every step.
       </div>
     </div>
 

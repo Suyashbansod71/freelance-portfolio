@@ -31,8 +31,8 @@ const OtherWork = () => {
 
      <div className='other-work-container'>
        <div className='text-other'>
-        <h4>Portfolio</h4>
         <h4>Graphic Design</h4>
+        <h4>Awareness</h4>
         <h4>Branding</h4>
        </div>
       
@@ -56,7 +56,7 @@ const OtherWork = () => {
            towards sexual health and relationships.
         </p>
 
-        <p className='view-detail'>View in Detail</p>
+        <p className='view-detail' onClick={() => gotToNewPage()}>View in Detail</p>
 
      </div>
 
@@ -66,15 +66,15 @@ const OtherWork = () => {
 
      <div className='other-work-container'>
        <div className='text-other'>
-        <h4>Portfolio</h4>
         <h4>Game Design</h4>
+        <h4>Research</h4>
         <h4>Horror</h4>
        </div>
       
        <img className='other-work-img hover-zoom'
         onClick={() => gotToNewPage1()}
           loading="lazy"
-          style={{ width: '500px', height: '500px' }}
+          style={{ width: '500px', height: '500px', marginLeft: '3em' }}
           src={otherwork2}
           alt="other1"
         />
@@ -91,7 +91,7 @@ const OtherWork = () => {
         working prototype and conducting user testing.
         </p>
 
-        <p className='view-detail'>View in Detail</p>
+        <p className='view-detail'  onClick={() => gotToNewPage1()}>View in Detail</p>
      </div>
 
      <hr className='borde-line'/>
@@ -99,15 +99,15 @@ const OtherWork = () => {
 
      <div className='other-work-container'>
        <div className='text-other'>
-        <h4>Freelance</h4>
         <h4>Graphic Design</h4>
+        <h4>Freelance</h4>
         <h4>Graffiti</h4>
        </div>
       
        <img className='other-work-img hover-zoom'
         onClick={() => gotToNewPage2()}
           loading="lazy"
-          style={{ width: '500px', height: '500px' }}
+          style={{ width: '500px', height: '500px', marginLeft: '2em' }}
           src={otherwork3}
           alt="other1"
         />
@@ -123,7 +123,7 @@ const OtherWork = () => {
           campus walls.
         </p>
 
-        <p className='view-detail'>View in Detail</p>
+        <p className='view-detail' onClick={() => gotToNewPage2()}>View in Detail</p>
 
      </div>
 

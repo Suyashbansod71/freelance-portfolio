@@ -14,7 +14,7 @@ const Contact = () => {
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/3c15808c87913ee5badb737e54773e73b86b3e5bb8ccbba51517db5ec66502f1?"
                alt="Heart"
             />
-            <div className='resume-text'>Resume</div>
+            <div className='resume-text'><a href='https://drive.google.com/drive/folders/1WPANFbEUCRwAH4b3ozp9Sz-p339tppTY'></a>Resume</div>
             <div className='resume-border' />
           </div>
         </div>
@@ -26,7 +26,7 @@ const Contact = () => {
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/36c6679952d6f1c34453c8a6e015fc0da774898f774de05c1287688ee5a6842b?"
               alt="Heart"
             />
-            <div className='linkedin-text'>Linkedin</div>
+            <div className='linkedin-text'><a href='https://www.linkedin.com/in/pranali-khatekar-470b4a279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'>Linkedin</a></div>
             <div className='linkedin-border' />
           </div>
         </div>
@@ -38,7 +38,7 @@ const Contact = () => {
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/36c6679952d6f1c34453c8a6e015fc0da774898f774de05c1287688ee5a6842b?"
               alt="Heart"
             />
-            <div className='behance-text'>Behance
+            <div className='behance-text'><a href='https://www.behance.net/pranalikhatekar'>Behance</a>
             <div className='behance-border' />
             </div>
           </div>
