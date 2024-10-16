@@ -14,7 +14,7 @@ const Contact = () => {
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/3c15808c87913ee5badb737e54773e73b86b3e5bb8ccbba51517db5ec66502f1?"
                alt="Heart"
             />
-            <div className='resume-text'><a href='https://drive.google.com/drive/folders/1WPANFbEUCRwAH4b3ozp9Sz-p339tppTY'></a>Resume</div>
+            <div className='resume-text'><a href='https://drive.google.com/drive/folders/1WPANFbEUCRwAH4b3ozp9Sz-p339tppTY'>Resume</a></div>
             <div className='resume-border' />
           </div>
         </div>
