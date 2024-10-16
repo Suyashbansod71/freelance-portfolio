@@ -18,7 +18,7 @@ const HeroSection = () => {
       />
       <div className='name'>Pranali Khatekar</div>
     </div>
-    <div className='resume'>Resume</div>
+    <div className='resume'><a href='https://drive.google.com/drive/folders/1WPANFbEUCRwAH4b3ozp9Sz-p339tppTY'>Resume</a></div>
   </div>
     
   <div className='background-section'>
